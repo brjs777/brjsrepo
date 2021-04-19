@@ -1,0 +1,14 @@
+.cont{
+    width: 100%;
+    background-color: dodgerblue;
+
+    display: flex;/*to put its child in a horizontal line*/
+   flex-wrap: wrap; /*if the box in line cannot be displayed in its orginal size then this will put other boxes in another line*/
+}
+
+.item{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    margin: 10px;
+}
